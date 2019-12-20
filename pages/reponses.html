@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Réponses aux questions</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../CSS/style_Display.css"/>
+</head>
+<body>
+
+</body>
+</html>			
+			<section class="paragraphe">
+				<h2 id="Reponses">Réponses aux questions</h2>
+				<p>
+				<b>TP2: Balise d'en-tête<br></b>
+				1) Utilité des balises d'en-tête &lt;meta../&gt;:
+				Description: fourni une description de la page web <br>
+				Keyword: mots clés associés à la page qui peuvent être utilisés par le moteur de recherche (très rarement) pour trouver les résultats.<br>
+				Author: fournit le nom de l'auteur. <br>
+					
+				3) Balise qui permet de faire référence à une feuille de style externe: &lt;link&gt; &lt;/ link&gt;.<br>
+				Il est plus simple de mettre tous les styles dans la feuille de style, comme cela, si l'on veut modifier un style, il suffit de le modifier dans le fichier CSS.<br>
+					
+				4) Meta viewport: La page web va s'adapter en fonction de la taille des écrans des supports (Ordinateur, téléphone, tablette)<br>
+
+				5)La balise &lt;meta charset="utf-8"/&gt; permet de coder tous les caractères qui existent, sans cette balise, les accents par exemples ne s'affichent pas correctement.<br><br>
+
+				<b>TP2: Mise en forme de texte avec CSS<br></b>
+				2) Pour la police, j'utilise une taille relative car elle s'adapte en fonction de la taille de l'écran, alors que la taille absolue ne s'adapte pas.<br>
+
+				A quoi correspond l’état hover? Il est utilisé pour sélectionner des éléments quand on passe la souris dessus.<br>
+
+				Signification de "box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);":
+				<br>- Les 4 premieres valeurs représentent la taille de l'ombre quand on passe la souris dessus, et la suite avec rgba est la couleur.
+				<br>- La reste fait la même chose, ce qui accentue l'ombre.
+				<br><br>
+				
+				<b>TP3: Travail préliminaire<br></b>
+				2) Pour les marges internes on utilise la propriété padding, et pour les marges externes on utilise la propriété margin.<br>
+				3) J'utilise des tailles relatives afin que la taille des blocs s'adapte en fonction de la taille de la fenêtre. <br><br>
+
+				<b>TP3: Agencement avec la propriété CSS “float” <br></b>
+				1) Quand on utilise la propriété float left pour le menu de nagivation, les autres blocs ne se décalent pas pour laisser la place à la colonne de gauche. Donc le bloc nav est à gauche mais les autres blocs aussi et se superposent <br>
+				2) On peut utiliser la propriété float right pour le bloc de commentaire afin qu'il se déplace tout à droite. Pour le bloc du milieu, il suffit de lui donner une certaine largeur et il s'adaptera. <br>
+				3) J'ai utilisé float left avec une largeur de 17% pour le bloc nav, float right avec une largeur de 17% pour le bloc article. Et une largeur de 65%.<br><br>
+
+
+				<b>TP3:Agencement en modifiant le comportement des blocs <br></b>
+				1) Par défaut, la propriété inline affiche le contenu des blocs à la suite, les mots d'un bloc vont continuer ceux d'un autre bloc. <br>
+				Par défaut, la propriété block afifche  les blocs les uns au dessus des autres.<br> 
+				2) Comme on veut les blocs les uns à cotés des autres et non les uns au dessus des autres, tout en restant des blocs distincts, on va utiliser la propriété inline-block <br> <br>
+
+
+				<b>TP4– Javascript Vanilla</b>
+				1) On accède à cet élément dans notre script Java script grâce à : document.getElementById("demoJS") <br>
+				2) On modifie le contenu grâce à : afficher_resultat.innerHTML=chaine_resultat; le inner.HTML permet d'afficher dans la balise demoJS. 
+				 <br> <br>
+
+				<b>TP6 : Création et manipulation d’objets</b> <br>
+				1) Dans un objet, les attributs sont les informations/données que l’on rentre dans les champs. Les méthodes sont les actions que cet objet peut faire. <br>
+				2) La fonction permettant d'instancier un objet est : 'this'. <br>
+				3) Les deux façons d'accéder aux champs sont : <br>
+					- nomVariable.attribut (Ex: p.age)	<br>
+					- nomVariable['attribut'] (Ex: p['age'])<br> <br>
+
+				<b>TP6: Affichage événementiel d’un texte sur une image</b> <br>
+				1) La fonction JS qui permet d'attacher des écouteurs est : addEventListener() <br>
+				2) Les deux événements permettant de detecter l'entrée et la sortie du curseur d’un  élément HTML est : mouseover et mouseout/mouseleave <br>
+				3) La fonction Javascript qui permet de récuperer tous les éléments du DOM d’une classe donnée est : getElementByClass("nomClasse"). <br>
+				4) En Javascript,on peut modifier le style d’un  élément grâce à la fonction: element.style.property = new style. (Ex: document.getElementById(“monParagraphe”).style.color = “blue”; qui change la couleur). <br>
+
+				<br>
+				La propriété position spécifie la position des éléments. 'absolute' permet de placer un élément n'importe où sur la page  alors que relative décale l’élément par rapport à sa position normale. <br>
+				La propriété Display contrôle la mise en page des différents blocs. <br>
+				La propriété bottom affecte la position d’un elements verticalement  <br>
+				De même, la propriété left affecte la position d’un element horizontalement  <br><br>
+
+				<b>TP7:Utilisation de jQuery dans un document web</b><br>
+				1) Un CDN (Content Delivery Network) c'est un réseau constitué d'ordinateurs reliés en réseaux à travers internet et qui coopèrent afin de mettre à disposition des ressources aux utilisateurs. <br>
+				2)Les avantages d’utiliser un CDN pour inclure le code de jQuery dans le document sont que:<br>
+						- les fichiers peuvent déjà être dans le cache de l’utilisateur.<br>
+						- il n'y a pas besoin de se soucier des mise-à-jour.<br>
+						- utilisation d'infrastructures robustes.<br><br>
+
+				<b>TP7 : Visibilité des éléments</b><br>
+				1) Les fonctions de rappel (Callback) sont appelées aprè̀s que l’effet soit terminé entièrement. Ainsi, cela évite que différentes fonctions se mélangent pendant l'exécution. L'utilisation permet de s'assurer que les fonctions s'exécutent dans l'ordre sans s'entremêler. <br>
+
+				2) Le resultat est-il satisfaisant? Le résultat n'est pas satisfaisant parce que en un seul clic, les trois fonctions se lancent presque en même temps. On ne distingue pas la disparition, le changement puis l'apparition. L'utilisation d'une foncton de rappel pourrait règler le problème car elle permettrait d'attendre la fin de chaque fonction avant t'entamer la suivante. On implemente la fonction de rappel à l'interieur de la fonction hide. On remarque que l'on voit bien les étapes.
+
+				<br><br>
+				<b>TP8 : JQuery</b><br>
+				1) Pour ajouter un élément à la liste, il faut utiliser la méthode 'append' <br>
+				2) Pour modifier dynamiquement le style d’un item cliqué il faut utiliser la méthode'toggle'. <br>
+				
+				<br><br>
+				<b>TP9 : formatage de données en JSON </b><br>
+				1) Les 2 espaces de stockage dans le navigateur sont: Local storage et Session storage. <br>
+				2) La différence entre ces deux espaces est que pour le Local Storage, il n’y a pas d’expiration sur les données alors que pour le Session Storage, les données sont effacées systématiquement à la fermeture du navigateur. <br>
+				3) Le seul type de données que l'on peut stocker dans le local Storage est les tableaux associatifs. <br>
+				4) Notre modèle ne correspond pas à un tableau associatif. <br>
+				5) Le lien entre l'utilisation du format JSON et l'utilisation de local storage est que nous pouvons stocker les données au format JSON dans le local storage. <br><br>
+
+	</p>
+</section>
+

@@ -1,0 +1,86 @@
+
+/*CSS du formulaire*/
+body{
+	/*background-image: url(../Images/parrot_formulaire.jpg);*/
+	background-image: url(../Images/ara1.png);
+	/*background-color: #ff8080;*/
+	background-repeat: no-repeat;
+
+	margin-top: 110px;
+}
+/*S'applique aux champs de données Nom, Prénom et Email*/
+input{
+	width:40%;
+	padding:10px;
+	font-size: 15px;
+	display: block;	
+	margin:10px auto;
+	border-radius: 8px; /*arrondit les coins*/
+	border:3px #AAA solid;
+	font-family: Times New Roman;
+}
+
+/*S'applique au champ commentaire*/
+
+textarea{
+	width:70%;
+	height: 70px;
+	padding:12px;
+	font-size: 15px;
+	display: block;
+	margin: 10px auto;
+	border:3px #AAA solid;
+	border-radius: 8px;
+	font-family: Times New Roman;
+}
+
+/* s'occupe de la mise en forme du formulaire*/
+.formulaire {
+	font-weight: bold;
+	font-size: 20px;
+	font: Times New Roman;
+	text-align: center;
+	box-shadow: 2px 2px 8px 8px;
+	margin: 0 auto;
+	padding-top:15px;
+	width: 500px;
+	height: 490px;
+	background-color: #3333cc;
+	opacity: 0.9;
+}
+
+/*On s'occupe du bouton*/
+.boutonSoumission{
+	margin-top: 8px;
+	padding: 10px 10px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Times New Roman;
+	border-radius: 8px 0px 8px 0px; 
+	background-color: #FF8000;
+
+}
+
+.boutonSoumission:hover{
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+	background-color:#DBA901;
+}
+
+/*On s'occupe du bouton retour pour retourner à la page principale*/
+nav a{
+	float: left;
+	font: white;
+	text-decoration: none;
+	font-family: Calibri avecserif;
+	font-size: 20px;
+
+}
+
+nav a:hover{
+	border:2px solid black;
+	padding:3px;
+}
+
+	
+
+

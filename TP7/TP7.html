@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<title> TP7</title>
+</head>
+<body>
+	<script type="text/javascript" src="TP7.js"></script>
+<!-- TP7 Partie 1-->
+<h2> 1 Utilisation de jQuery dans un document web</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+
+	<p class="classe">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+
+	<p id="identifiant">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia .</p>
+
+<!-- TP7 Partie 2-->
+
+<h2>2 Visibilité des éléments</h2>
+	<div class="callback">
+	    <p>Du texte</p>
+	    <p class="disparaitre">Test d’une fonction de rappel</p>
+	    <p>Du texte, encore</p>
+	</div>
+
+<!-- Formulaire TP4 -->
+<h2>3 Modifier le texte d’un élément</h2>
+<form>
+	Nom <br>
+	<input type="text" name="Nom" id="nom" placeholder="Entrez votre nom"><br><br>
+	Prénom <br>
+	<input type="text" name="Prenom" id="prenom" placeholder="Entrez votre prénom"><br><br>
+	Numéro étudiant <br>
+	<input type="text" name="Numero" id="numero" placeholder="Entrez votre numéro etudiant"><br><br>
+	
+</form>
+ 
+<select name="Cursus" id="cursus">
+  <option value="CMI">CMI</option>
+  <option value="Math">Math</option>
+  <option value="Info">Info</option>
+</select>
+	<br>
+	<br>
+
+<input type="submit" name="Button"  id="button" value="Envoyer" onclick="information();"> <!-- On appelle la fonction information quand on clique sur Envoyer-->
+
+<div> 
+	<p id="afficher"></p> <!-- Va permettre d'écrire sous notre formulaire les informations récuperées.-->
+</div>
+
+</body>
+</html>

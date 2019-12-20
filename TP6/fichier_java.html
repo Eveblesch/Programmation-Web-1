@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>essaie java</title>
+</head>
+
+<body>
+
+<div id="demoJS">        
+    
+     
+</div>    
+
+<!-- les attributs pour un etudiant vont être : nom, prénom, numéro, filière-->
+<form>
+    Nom <br>
+    <input type="text" name="Nom" id="nom" placeholder="Entrez votre nom"><br><br>
+    Prénom <br>
+    <input type="text" name="Prenom" id="prenom" placeholder="Entrez votre prénom"><br><br>
+    Numéro étudiant <br>
+    <input type="text" name="numero" id="numero" placeholder="Entrez votre numéro etudiant"><br><br>
+    
+</form>
+ 
+<select name="Cursus" id="cursus">
+  <option value="CMI">CMI</option>
+  <option value="Math">Math</option>
+  <option value="Info">Info</option>
+</select>
+    <br>
+    <br>
+
+<input type="submit" value="Envoyer" onclick="afficher();">
+<br><br>
+
+
+<!-- PARTIE REORIENTATION-->
+
+<input type="text" id="changement" placeholder="Entrez la nouvelle filière"><br><br>
+
+<input type="submit" value="Changer de filière" onclick="afficher_reorientation();">
+
+
+<div id="modifDOM">
+    <script type="text/javascript" src="TP6_bis.js"></script>
+</div>
+
+
+
+  <h2>PARTIE 2 </h2>
+
+  <script type="text/javascript" src="TP6_bis.js"></script>
+      <link rel="stylesheet" type="text/css" href="TP6.css">
+    
+    <div id="image">
+    <img src="http://lorempixel.com/400/200/" alt="Une image façon lorem ipsum"  onmouseout="enlever_description()" onmouseover="ajouter_description()"/> 
+
+    <p id="description"> La description de l’image</p>
+    </div>
+
+
+
+</body>
+</html>
+
+
+

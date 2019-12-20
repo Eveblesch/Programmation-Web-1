@@ -1,0 +1,30 @@
+
+#button{
+	background-color: red;
+	color: white;
+	padding:4px;
+	margin:4px;
+	font-family: "Calibri";
+}
+
+
+#navigation{
+	list-style:none; /*enlever les points*/
+	text-decoration: none;
+	width:15%;
+	font-size: 20px;
+	font-family: "Calibri";
+}
+
+.liste{
+	padding : 10px;
+	border : 2px solid black;
+	text-align:center;
+
+}
+
+.apresClic{
+	background-color: grey;
+	text-decoration: line-through;
+
+}

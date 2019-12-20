@@ -1,0 +1,41 @@
+				<!-- faire le formulaire-->
+
+<!DOCTYPE html>
+<html>
+<head>
+			<title> Formulaire</title>
+			<link rel="stylesheet" type="text/css" href="CSS-formulaire.css">
+			<meta charset="utf-8"/>
+</head>
+
+<body>
+
+		<header>
+		<nav>
+		<!-- On fait un lien retour vers le site principal-->
+			<a href="../site.html"> Retour </a>	
+		</nav>
+		</header>
+
+		<div class="formulaire">	
+
+			<form  method="post"> <!--Définit un formulaire-->
+				Nom <br>
+				<input type="text" id="prenom" placeholder="Entrez votre nom" />
+				<!--La balise input permet à l'utilisateur de rentrer du texte ou des données. Placeholder affiche le message à l'interieur des champs, qui s'efface quand on écrit dedans-->
+				Prénom <br>
+				<input type="text" id="nom" placeholder="Entrez votre prénom" />
+				
+				Email <br>
+				<input type="email" id="email" placeholder="Entrez votre adresse mail" />
+				
+				Commentaire <br>
+				<textarea id="message" placeholder="Entrez votre commentaire"></textarea>
+			
+				<button class="boutonSoumission" type="submit" id="submit">Envoyer le commentaire</button>
+			
+			</form>
+		</div>
+</body>
+</html>
+
